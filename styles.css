@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+
+
+}
+
+.protest-guerrilla-regular ,body{
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  
+ 
+}
+
+.nav{
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  height: 80px;
+  box-shadow: rgb(13, 255, 94);
+  display: flex;
+  justify-content: right;
+  float: center;
+  
+  
+
+  
+ 
+ 
+
+}
+
+#navbar.scrolled {
+  background-color: black; /* Background color when scrolled */
+  color: white; /* Text color if needed */
+}
+.flex{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: right;
+  
+ 
+  
+}
+li{
+ 
+  padding: 0 12px;
+}
+li:hover{
+  color: #929aa8;
+  transition-duration: 0.5s;
+}
+.logo{
+  width: 120px;
+}
+.profile{
+  background: linear-gradient(#3a86acfd 0%,#0889f3 100%);
+  border-radius: 2px;
+  rotate: 90deg;
+  
+}
+
+
+.test{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.lock{
+  margin-right: auto;
+}
+.movies{
+  padding-left: 55px;
+  margin: 0;
+}
+.watch{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+ 
+  
+}
+.watch li{
+  display: inline-flex;
+  padding: 10px;
+ 
+  
+}
+.watch img{
+  background:linear-gradient(#ffffff 0%, #0889f3 100%);
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  padding: 1px 1px;
+  border-radius: 10px;
+  background-attachment: fixed;
+  
+  
+}
+.watch img:hover{
+ cursor: pointer;
+ background:linear-gradient(#085feb 0%, #f30808 100%);
+ transition-duration: 1s;
+  
+}
+
+.poster {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  
+}
+
+.poster img{
+  width: 100%;
+}
